@@ -11,5 +11,15 @@ pipeline {
                 sh 'mvn -B -DskipTests clean package'
             }
         }
+        stage('Unit Test') {
+            steps {
+                sh 'mvn clean test -P dev'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
+                }
+            }
+        }
     }
 }
