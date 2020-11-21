@@ -17,11 +17,6 @@ pipeline {
                 echo 'Unit Testing..'
                 sh 'mvn clean test -P dev'
             }
-            post {
-                always {
-                    junit '/moonlodge_backend/target/surefire-reports/*.xml'
-                }
-            }
         }
     }
 }
