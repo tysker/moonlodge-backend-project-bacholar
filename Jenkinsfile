@@ -19,9 +19,9 @@ pipeline {
             }
             post {
                 always {
-                    junit allowEmptyResults: true, testResults: 'target/surefire-reports/*.xml'
+                    junit '/moonlodge_backend/target/surefire-reports/*.xml'
                 }
             }
         }
     }
-} 
+}
