@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: dk.lsd.unit.TestMessageBuilder
+Test set: dk.lsd.unit.TestMain
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in dk.lsd.unit.TestMessageBuilder
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in dk.lsd.unit.TestMain

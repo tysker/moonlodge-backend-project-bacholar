@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dk.lsd.unit.TestMessageBuilder" time="0.016" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="dk.lsd.unit.TestMain" time="0" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -40,7 +40,7 @@
     <property name="java.class.path" value="/home/jorg/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/202.7660.26/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/home/jorg/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/202.7660.26/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.2.3 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.2.3 clean test -P dev"/>
     <property name="java.home" value="/usr/lib/jvm/java-14-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -55,7 +55,4 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase name="dk.lsd.unit.TestMessageBuilder.testNameEmpty" classname="dk.lsd.unit.TestMessageBuilder" time="0.015"/>
-  <testcase name="dk.lsd.unit.TestMessageBuilder.testNameNull" classname="dk.lsd.unit.TestMessageBuilder" time="0"/>
-  <testcase name="dk.lsd.unit.TestMessageBuilder.testNameJoerg" classname="dk.lsd.unit.TestMessageBuilder" time="0.001"/>
 </testsuite>
